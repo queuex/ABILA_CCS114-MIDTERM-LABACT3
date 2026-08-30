@@ -1,0 +1,162 @@
+:root {
+    --steam-black: #08080a;
+    --steam-dark-nav: #0f0f13;
+    --steam-panel-bg: #15151c;
+    --steam-red-glow: #ff0033;
+    --steam-red-dark: #b30024;
+    --steam-btn-gradient: linear-gradient(135deg, #ff0033 0%, #800014 100%);
+}
+
+body.steam-bg {
+    background-color: var(--steam-black);
+    font-family: "Motiva Sans", 'Segoe UI', Arial, sans-serif;
+}
+
+.steam-top-header {
+    background-color: #000000;
+}
+
+.steam-store-nav {
+    background: linear-gradient(90deg, #1c0508 0%, #400a11 100%);
+    border-bottom: 1px solid rgba(255, 0, 51, 0.2);
+}
+
+.bg-steam-dark {
+    background-color: var(--steam-dark-nav);
+}
+
+.hopipa-input {
+    background-color: #1a1a24;
+    border: 1px solid #2d2d3d;
+    color: #fff;
+}
+
+.hopipa-input:focus {
+    background-color: #222230;
+    color: #fff;
+    border-color: var(--steam-red-glow);
+    box-shadow: 0 0 10px rgba(255, 0, 51, 0.4);
+}
+
+.hopipa-input::placeholder {
+    color: #6c757d;
+}
+
+.hopipa-check:checked {
+    background-color: var(--steam-red-glow);
+    border-color: var(--steam-red-glow);
+}
+
+/* Split-Screen Side Banner */
+.hopipa-side-banner {
+    background: url('../images/logo-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hopipa-pills .nav-link {
+    color: #a0aec0;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.hopipa-pills .nav-link.active {
+    background: var(--steam-btn-gradient);
+    color: #fff;
+}
+
+.bg-steam-panel {
+    background-color: var(--steam-panel-bg);
+}
+
+.steam-card {
+    background-color: var(--steam-panel-bg);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.steam-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(255, 0, 51, 0.35);
+}
+
+.game-card-img {
+    height: 170px;
+    object-fit: cover;
+}
+
+.btn-steam-red {
+    background: var(--steam-btn-gradient);
+    color: #fff;
+    border: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.btn-steam-red:hover {
+    color: #fff;
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.genre-steam-card {
+    background-color: var(--steam-panel-bg);
+    border: 1px solid rgba(255, 0, 51, 0.15);
+    color: #e2e8f0;
+    transition: all 0.2s ease;
+}
+
+.genre-steam-card:hover {
+    background-color: #2b0b10;
+    border-color: var(--steam-red-glow);
+    color: var(--steam-red-glow);
+}
+
+.steam-alert {
+    background-color: #29080c;
+    color: #f0d5d7;
+    border: 1px solid var(--steam-red-glow);
+}
+
+.steam-list-group .list-group-item {
+    transition: background-color 0.2s ease;
+}
+
+.steam-list-group .list-group-item:hover {
+    background-color: #260c10;
+}
+
+.steam-footer {
+    background-color: #000000;
+}
+
+.text-hover-danger:hover {
+    color: var(--steam-red-glow);
+}
+
+.steam-price-box{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.btn-list{
+    margin-left: 12px;
+}
+
+section{
+    padding-top: 85px;
+    margin-top: -100px;
+}
+
+#hlogo-icon{
+    width: 38px;
+    margin-top: -6px;
+    margin-right: 8px;
+}
+
+#hlogo-icon-small{
+    width: 32px;
+    margin-top: -4px;
+    margin-right: 8px;
+}
+
+#heroSteamCarousel{
+    height: 500px;
+}
